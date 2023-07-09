@@ -1,16 +1,35 @@
-.rightheader{
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    width: 100%;
-    height: 70px;
-    background-color: whitesmoke;
-    align-items: center;
-    z-index: 1;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.rightheaderbuttons{
-    display: flex;
-    justify-content: space-between;
+.container{
+  width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/IMG_8458.JPEG);
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.menu{
+  width: 30px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.logo{
+  width: 400px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  text-align: right;
 }
 .about{
     align-items: center;
@@ -164,9 +183,64 @@
   color: rgba(0, 0, 0, .3);
 }
 .pic1{
-    width: 700px;
+    width: 70%;
     display: flex;
     justify-content: left;
-    margin-top: 700px;
-    margin-right: 4000px;
+    margin-top: 600px;
+    margin-right: 500px;
+    position: relative;
+    z-index: 5;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+  color: #ffffff;
+}
+.col{
+  flex-basis: 50%;
+  color: #ffffff;
+}
+h1{
+  font-size: 100px;
+}
+p{
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.book-now1{
+  margin-top: 10px;
+  align-items: center;
+  background-color: #042d57;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+
+}
+.video1{
+  width: 90%;
+  margin-left: 60px;
+  border-radius: 10px;
 }
